@@ -142,7 +142,7 @@ def create_animation(df):
 # 4. 主程序
 # -----------------------------
 if __name__ == "__main__":
-    # 恢复联网获取香港天文台温度数据
+    # 恢复联网获取香港天文台温度数据 testing
     try:
         df = fetch_temperature_data()
         # 只保留最近60天数据
